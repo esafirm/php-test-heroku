@@ -1,11 +1,11 @@
 <?php
 
-echo "------------------"
-echo "$_POST";
+echo "------------------";
+echo "POST";
 var_dump($_POST);
 
 echo "------------------";
-echo "$_FILES";
+echo "FILES";
 var_dump($_FILES);
 
 ?>
